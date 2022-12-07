@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Henny+Penny&display=swap');
+
+body {
+    background-color: antiquewhite;
+    display: inline-block;
+    position: relative;
+}
+
+.titulo {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Henny Penny', cursive;
+    color: red;
+}
+
+.content {
+    /*background-color: red;*/
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    max-width: 500px;
+}
+
+table {
+    /*background-color: aquamarine;*/
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    max-width: 500px;
+    top: 20px;
+    left: 20px;
+    z-index: 4;
+}
+
+.content th,
+td {
+    border: 2px solid green;
+    border-collapse: collapse;
+    padding: 2px 2px;
+    text-align: center;
+}
+
+th {
+    background-color: gold;
+    color: red;
+}
+
+td {
+    background-color: rgb(176, 214, 120);
+}
+
+img {
+    width: 500px;
+    height: 700px;
+    opacity: 0.8;
+}
